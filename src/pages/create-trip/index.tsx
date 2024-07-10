@@ -96,7 +96,7 @@ export function CreateTripPage() {
       return;
     }
 
-    if (ownerName || ownerEmail) {
+    if (!ownerName || !ownerEmail) {
       return;
     }
 
